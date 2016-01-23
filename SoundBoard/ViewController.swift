@@ -29,9 +29,9 @@ class ViewController: UIViewController
         let fileLocation3 = NSBundle.mainBundle().pathForResource("drum3", ofType: ".wav")
         let fileLocation4 = NSBundle.mainBundle().pathForResource("drum4", ofType: ".wav")
         let fileLocation5 = NSBundle.mainBundle().pathForResource("drum5", ofType: ".wav")
-        let fileLocation6 = NSBundle.mainBundle().pathForResource("drum6", ofType: ".wav")
-        let fileLocation7 = NSBundle.mainBundle().pathForResource("drum7", ofType: ".wav")
-        let fileLocation8 = NSBundle.mainBundle().pathForResource("drum8", ofType: ".wav")
+        let fileLocation6 = NSBundle.mainBundle().pathForResource("symbol1", ofType: ".wav")
+        let fileLocation7 = NSBundle.mainBundle().pathForResource("symbol2", ofType: ".wav")
+        let fileLocation8 = NSBundle.mainBundle().pathForResource("symbol3", ofType: ".wav")
         
         do {
             
@@ -56,40 +56,40 @@ class ViewController: UIViewController
     
     @IBAction func drum1Pressed(sender: AnyObject)
     {
-        
+        soundPlayer1.play()
     }
     @IBAction func drum2Pressed(sender: AnyObject)
     {
-        
+        soundPlayer2.play()
     }
 
     @IBAction func drum3Pressed(sender: AnyObject)
     {
-        
+        soundPlayer3.play()
     }
 
     @IBAction func drum4Pressed(sender: AnyObject)
     {
-        
+        soundPlayer4.play()
     }
     @IBAction func drum5Pressed(sender: AnyObject)
     {
-        
+        soundPlayer5.play()
     }
 
     @IBAction func symbol1Pressed(sender: AnyObject)
     {
-        
+        soundPlayer6.play()
     }
 
     @IBAction func symbol2Pressed(sender: AnyObject)
     {
-        
+        soundPlayer7.play()
     }
 
     @IBAction func symbol3Pressed(sender: AnyObject)
     {
-        
+        soundPlayer8.play()
     }
 }
 
