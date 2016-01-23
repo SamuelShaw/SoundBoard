@@ -12,6 +12,15 @@
 		0063B0A31C53DBE7008EE6A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0063B0A11C53DBE7008EE6A3 /* Main.storyboard */; };
 		0063B0A51C53DBE7008EE6A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0063B0A41C53DBE7008EE6A3 /* Assets.xcassets */; };
 		0063B0A81C53DBE7008EE6A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0063B0A61C53DBE7008EE6A3 /* LaunchScreen.storyboard */; };
+		0063B0B51C53DCEC008EE6A3 /* drum1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0063B0B01C53DCEC008EE6A3 /* drum1.wav */; };
+		0063B0B61C53DCEC008EE6A3 /* drum2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0063B0B11C53DCEC008EE6A3 /* drum2.wav */; };
+		0063B0B71C53DCEC008EE6A3 /* drum3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0063B0B21C53DCEC008EE6A3 /* drum3.wav */; };
+		0063B0B81C53DCEC008EE6A3 /* drum4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0063B0B31C53DCEC008EE6A3 /* drum4.wav */; };
+		0063B0B91C53DCEC008EE6A3 /* drum5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0063B0B41C53DCEC008EE6A3 /* drum5.wav */; };
+		0063B0BD1C53DCF7008EE6A3 /* symbol1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0063B0BA1C53DCF7008EE6A3 /* symbol1.wav */; };
+		0063B0BE1C53DCF7008EE6A3 /* symbol2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0063B0BB1C53DCF7008EE6A3 /* symbol2.wav */; };
+		0063B0BF1C53DCF7008EE6A3 /* symbol3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0063B0BC1C53DCF7008EE6A3 /* symbol3.wav */; };
+		0063B0C11C53E04A008EE6A3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0063B0C01C53E04A008EE6A3 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		0063B0A41C53DBE7008EE6A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0063B0A71C53DBE7008EE6A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0063B0A91C53DBE8008EE6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0063B0B01C53DCEC008EE6A3 /* drum1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drum1.wav; sourceTree = "<group>"; };
+		0063B0B11C53DCEC008EE6A3 /* drum2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drum2.wav; sourceTree = "<group>"; };
+		0063B0B21C53DCEC008EE6A3 /* drum3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drum3.wav; sourceTree = "<group>"; };
+		0063B0B31C53DCEC008EE6A3 /* drum4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drum4.wav; sourceTree = "<group>"; };
+		0063B0B41C53DCEC008EE6A3 /* drum5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drum5.wav; sourceTree = "<group>"; };
+		0063B0BA1C53DCF7008EE6A3 /* symbol1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = symbol1.wav; sourceTree = "<group>"; };
+		0063B0BB1C53DCF7008EE6A3 /* symbol2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = symbol2.wav; sourceTree = "<group>"; };
+		0063B0BC1C53DCF7008EE6A3 /* symbol3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = symbol3.wav; sourceTree = "<group>"; };
+		0063B0C01C53E04A008EE6A3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0063B0C11C53E04A008EE6A3 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +57,7 @@
 		0063B0911C53DBE7008EE6A3 = {
 			isa = PBXGroup;
 			children = (
+				0063B0C01C53E04A008EE6A3 /* AVFoundation.framework */,
 				0063B09C1C53DBE7008EE6A3 /* SoundBoard */,
 				0063B09B1C53DBE7008EE6A3 /* Products */,
 			);
@@ -54,6 +74,7 @@
 		0063B09C1C53DBE7008EE6A3 /* SoundBoard */ = {
 			isa = PBXGroup;
 			children = (
+				0063B0AF1C53DC78008EE6A3 /* Sounds */,
 				0063B09D1C53DBE7008EE6A3 /* AppDelegate.swift */,
 				0063B09F1C53DBE7008EE6A3 /* ViewController.swift */,
 				0063B0A11C53DBE7008EE6A3 /* Main.storyboard */,
@@ -62,6 +83,21 @@
 				0063B0A91C53DBE8008EE6A3 /* Info.plist */,
 			);
 			path = SoundBoard;
+			sourceTree = "<group>";
+		};
+		0063B0AF1C53DC78008EE6A3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0063B0B01C53DCEC008EE6A3 /* drum1.wav */,
+				0063B0B11C53DCEC008EE6A3 /* drum2.wav */,
+				0063B0B21C53DCEC008EE6A3 /* drum3.wav */,
+				0063B0B31C53DCEC008EE6A3 /* drum4.wav */,
+				0063B0B41C53DCEC008EE6A3 /* drum5.wav */,
+				0063B0BA1C53DCF7008EE6A3 /* symbol1.wav */,
+				0063B0BB1C53DCF7008EE6A3 /* symbol2.wav */,
+				0063B0BC1C53DCF7008EE6A3 /* symbol3.wav */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +160,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0063B0A81C53DBE7008EE6A3 /* LaunchScreen.storyboard in Resources */,
+				0063B0BE1C53DCF7008EE6A3 /* symbol2.wav in Resources */,
 				0063B0A51C53DBE7008EE6A3 /* Assets.xcassets in Resources */,
+				0063B0B91C53DCEC008EE6A3 /* drum5.wav in Resources */,
+				0063B0B51C53DCEC008EE6A3 /* drum1.wav in Resources */,
+				0063B0B61C53DCEC008EE6A3 /* drum2.wav in Resources */,
+				0063B0BF1C53DCF7008EE6A3 /* symbol3.wav in Resources */,
+				0063B0B71C53DCEC008EE6A3 /* drum3.wav in Resources */,
+				0063B0B81C53DCEC008EE6A3 /* drum4.wav in Resources */,
 				0063B0A31C53DBE7008EE6A3 /* Main.storyboard in Resources */,
+				0063B0BD1C53DCF7008EE6A3 /* symbol1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
